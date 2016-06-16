@@ -1,0 +1,30 @@
+# use glob syntax
+syntax: glob
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#OSX
+.DS_Store
+
+# User
+*.suo
+*.user
+*.sln.docstates
+[Pp]ackages/
+.sass-cache/
+
+# Binaries
+[Bb]in/
+[Oo]bj/
+
+#Local Database
+*.mdf
+*.ldf
+
+# Zombie
+Config/*.Debug.config
+AppSettings.config
+ConnectionStrings.config
